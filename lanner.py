@@ -8,7 +8,7 @@ def index():
 	# INSERT new snippet
 	data = request.form
 	# snippet = data.get('snippet', 'no message')
-	snippet = str(data.get('snippet', 'no message'))
+	snippet = data.get('snippet', 'no message')
 	conn = sqlite3.connect('snippets.db')
 	# print("Database opened successfully")
 	cur = conn.cursor()
