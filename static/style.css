@@ -1,7 +1,7 @@
 * {margin: 20px; font-family: arial; }
 textarea  {resize: vertical}
 
-.container {margin: auto; width: 90%; border: 1px solid #ccc; background-color: #222;}
+.container {margin: auto; width: 90%; border: 1px solid #333; border-radius: 6px;  background-color: #eee;}
 /* .container {margin: auto; width: 90%; background-color: #ccc;}*/
 .resizedTextbox {width: 80%; height: 2em}
 .btn-large {width: 25%; height: 3em; margin: auto; }
