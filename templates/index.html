@@ -1,0 +1,22 @@
+ <!DOCTYPE html>
+<html>
+<head>
+	<title>Lanner App</title>
+
+	<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}" />
+<link rel="shortcut icon" type="image/x-icon" href="{{ url_for('static', filename='favicon.ico') }}"  />	
+</head>
+<body>
+	<div class="container" >
+<form action="{{ url_for('index') }}" method="POST"> 
+
+<div align="center"><textarea name="snippet" rows="7" cols="60" class="large-text"  placeholder="Type or paste snippet"></textarea></div>
+<br>
+<div class="wide" align="center"><input type="submit" value="Submit" class="btn-large large-text" /></div>
+<p class="large-text"><italic>Output: </italic></p>
+<hr>
+	<p class="large-text"><strong>{{ most_recent1 }}</strong></p>
+	<p class="large-text"><strong>{{ most_recent2 }}</strong></p>
+</div> <!-- container -->
+</body>
+</html>

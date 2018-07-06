@@ -1,0 +1,5 @@
+* {margin: 20px; font-family: arial; }
+.container {margin: auto; width: 90%; background-color: #ccc;}
+.resizedTextbox {width: 80%; height: 2em}
+.btn-large {width: 25%; height: 3em; margin: auto; }
+.large-text {font-size: 2.2em;}
